@@ -3,5 +3,4 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          secret-key: my-super-secret-key-that-is-at-least-32-bytes-long!!
-
+          secret-key: "{cipher}801db89989ea5ad71da7eb3195bcb3854346d4a155c02d29c4c6417dbedced4f215117475bb1c8add6c0dce9371701270ab20fab4e369c9c5dc81c3f3994b8eb7b54758f24a7f2c4b38e09fd51fd1496"
