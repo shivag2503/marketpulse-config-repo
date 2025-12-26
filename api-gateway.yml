@@ -3,5 +3,5 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          secret-key: "{cipher}62bd7a77a512b9a15ae323a868944161e740bc89a105780950b7ada1208804c0d8224c59df7a352e4b9c05e3fe02ee6f00138cda601017925c16c411c88b730e1c3d36e99eabe8c2c4a000434d20e448"
+          secret-key: ${jwt.secret}
 
